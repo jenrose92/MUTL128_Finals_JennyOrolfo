@@ -137,9 +137,6 @@ h4 {
   color: #929471 !important;
 }
 
-#main {
-  height: 90vh !important;
-}
 #main .container .row {
   border: 1px solid #8B6D53;
 }
@@ -190,8 +187,34 @@ h4 {
 
 @media only screen and (max-width: 844px) {
   body {
-    background-image: url("mobilebackground.png") repeat 0 0;
-    background-color: transparent !important;
+    background-image: url("mobilebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden !important;
+    max-height: -moz-fit-content !important;
+    max-height: fit-content !important;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  body h1 {
+    font-size: 45px !important;
+    width: 400px;
+  }
+  #main-menu .nav-link {
+    font-size: 20px !important;
+  }
+  #main-menu .nav-item {
+    width: 300px !important;
+    margin: 0px !important;
+  }
+  #main-menu .nav-underline {
+    --bs-nav-underline-gap: 0rem;
+  }
+  #main-menu a {
+    margin-left: 10px;
+  }
+  #main-menu .active {
+    width: 50px !important;
   }
   #imageframe {
     display: none;

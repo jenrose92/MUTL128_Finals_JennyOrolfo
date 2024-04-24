@@ -23,10 +23,9 @@ $orig-white: #ffffff;
 
 body{
 
-    background-color: $brand-white;
-
+    background-color:$brand-white;
     
-    
+      
 }
     
   
@@ -188,8 +187,7 @@ h1 {
 
  #main {
 
-    height: 90vh !important;
-
+   
     .container  {
 
        
@@ -283,11 +281,58 @@ h1 {
 @media only screen and (max-width: 844px) {
    
     body {   
-        background-image: url("mobilebackground.png") repeat 0 0; 
-        background-color: transparent !important;
-    
+        background-image: url('mobilebackground.png'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden !important;
+       
+        
+        max-height: fit-content !important;
+        h1 {
+            font-size: 45px !important;
+            width: 400px;
+            }
+     
+            padding-top: 50px;
+            padding-left: 30px;
+
     }
+
    
+    #main-menu {
+
+        
+    
+    
+        .nav-link {
+    
+            font-size: 20px !important;
+
+        }
+
+        .nav-item {
+            width: 300px !important;
+            margin: 0px !important;
+        }
+
+        .nav-underline {
+            --bs-nav-underline-gap: 0rem;
+        }
+
+        a {
+           margin-left: 10px;
+        }
+
+       
+
+        .active {
+
+            width:50px !important;
+        }
+    
+    
+     }
+    
    
 
 
@@ -296,5 +341,11 @@ h1 {
         display: none;
     }
 
+    
+
+    
+
   }
+
+//   end of mobile
   
