@@ -1,16 +1,6 @@
 // new code for about / progress
 
-
-$brand-white: #FAF9F6;
-$brand-grey: #CDC9C1;
-$brand-lightbrown: #D1BAA6;
-$brand-darkbrown: #8B6D53;
-$brand-green: #929471;
-$brand-black: #4D4D4D;
-
-
-//secondary colors
-$orig-white: #ffffff;
+@import url('styles/variables');
 
 *{
 
@@ -139,8 +129,52 @@ body{
     font-style: normal;
   }
 
-#col-tols .progress-bar {
+
+
+
+#col-tols{
+
+    padding:30px !important;
+
+
+
+    .progress-bar {
 
     background-color:$brand-green;
   }
+
+
+
+
+}
+
+
+#intro {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color:$brand-lightbrown;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    h1 {
+
+        color:$brand-white;
+      }
+}
+
+#aboutme{
+
+
+    padding-right: 40px !important;
+
+    h4 , h5 {
+
+        color:$brand-green;
+    }
+}
+
+
+
     

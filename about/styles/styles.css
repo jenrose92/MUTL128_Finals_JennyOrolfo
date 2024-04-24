@@ -116,6 +116,29 @@ body {
   font-style: normal;
 }
 
+#col-tols {
+  padding: 30px !important;
+}
 #col-tols .progress-bar {
   background-color: #929471;
+}
+
+#intro {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: #D1BAA6;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#intro h1 {
+  color: #FAF9F6;
+}
+
+#aboutme {
+  padding-right: 40px !important;
+}
+#aboutme h4, #aboutme h5 {
+  color: #929471;
 }/*# sourceMappingURL=styles.css.map */
