@@ -1,6 +1,18 @@
-// new code for about / progress
 
-@import url('styles/variables');
+//brand colors
+$brandnew-white: #FAF9F6;
+$brand-grey: #CDC9C1;
+$brand-lightbrown: #D1BAA6;
+$brand-darkbrown: #8B6D53;
+$brand-green: #929471;
+$brand-black: #4D4D4D;
+
+//secondary colors
+$orig-white: #ffffff;
+
+
+
+
 
 *{
 
@@ -12,8 +24,7 @@
 
 body{
 
-    background-color:$brand-white;
-    
+    background-color:#FAF9F6 !important;
       
 }
     
@@ -132,7 +143,7 @@ body{
 
 
 
-#col-tols{
+#col-tols , #col-skills{
 
     padding:30px !important;
 
@@ -152,16 +163,16 @@ body{
 #intro {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-    padding-left: 200px;
-    padding-right: 200px;
     background-color:$brand-lightbrown;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 20px;
 
-    h1 {
+    h2 {
 
-        color:$brand-white;
+        color: $brand-black;
       }
+
+
 }
 
 #aboutme{
@@ -177,4 +188,33 @@ body{
 
 
 
-    
+#navbarNav {
+
+  margin-left: 40px;
+
+  .nav-link {
+
+
+  
+  
+
+    color: $brand-green !important;
+  
+  
+    .active {
+  
+      font-weight: 200 !important;
+    }
+  
+  
+  }
+  
+
+
+}
+
+
+
+
+
+

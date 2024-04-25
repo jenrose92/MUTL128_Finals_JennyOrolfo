@@ -2,9 +2,9 @@
 // <weight>: Use a value from 100 to 900
 
 @import 'variables';
+@import '_navbase';
 
-//secondary colors
-$orig-white: #ffffff;
+
 
 *{
 
@@ -150,28 +150,9 @@ h1 {
     color: $brand-green !important;
  }
 
- #main-menu {
+//  main menu
 
-    .nav-link{
-
-        color: $brand-black !important;
-    }
-
-    .active {
-
-        color: $brand-green !important;
-        font-weight: 400;
-      
-       
-    }
-
-    a:hover {
-
-        color:$brand-green !important;
-    }
-
-
- }
+ 
 
 
 

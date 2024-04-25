@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+#main-menu {
+
+    .nav-link{
+
+        color: $brand-black !important;
+    }
+
+    .active {
+
+        color: $brand-green !important;
+        font-weight: 400;
+      
+       
+    }
+
+    a:hover {
+
+        color:$brand-green !important;
+    }
+
+
+ }
