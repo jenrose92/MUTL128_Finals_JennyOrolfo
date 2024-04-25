@@ -162,15 +162,24 @@ body{
 
 #intro {
       padding-top: 20px !important;
-    padding-bottom: 20px !important;
-background-color:$brand-lightbrown;
+      padding-bottom: 20px !important;
+      background-color:$brand-lightbrown;
     margin-top: 30px;
     margin-bottom: 20px;
 
+    
     h2 {
   
-color: $brand-black;
+    color: $brand-black;
   }
+
+
+  div .container{
+
+    padding: 200px !important;
+  }
+
+ 
 
 
 }

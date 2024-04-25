@@ -133,6 +133,9 @@ body {
 #intro h2 {
   color: #4D4D4D;
 }
+#intro div .container {
+  padding: 200px !important;
+}
 
 #aboutme {
   padding-right: 40px !important;
