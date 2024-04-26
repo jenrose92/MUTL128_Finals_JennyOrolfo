@@ -141,6 +141,10 @@ div#services-items p {
   padding: 200px !important;
 }
 
+.navbar {
+  margin-top: 10px !important;
+}
+
 #navbarNav {
   margin-left: 40px;
 }
