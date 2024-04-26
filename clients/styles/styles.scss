@@ -1,0 +1,233 @@
+
+//brand colors
+$brandnew-white: #FAF9F6;
+$brand-grey: #CDC9C1;
+$brand-lightbrown: #D1BAA6;
+$brand-darkbrown: #8B6D53;
+$brand-green: #929471;
+$brand-black: #4D4D4D;
+
+//secondary colors
+$orig-white: #ffffff;
+
+
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color:#FAF9F6 !important;
+      
+}
+    
+  
+    .montserrat-alternates-thin {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .montserrat-alternates-extralight {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .montserrat-alternates-light {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .montserrat-alternates-regular {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+      .montserrat-alternates-semibold {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+
+
+ .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+
+
+
+
+
+
+
+
+#intro {
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+      background-color:$brand-lightbrown;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    
+    h2 {
+  
+    color: $brand-black;
+  }
+
+
+  div .container{
+
+    padding: 200px !important;
+  }
+
+ 
+
+
+}
+ 
+
+#review-1 {
+  margin-top: 50px ;
+}
+
+.checked {
+  color: $brand-green;
+}
+
+.fa-star-half-full {
+  color: $brand-green;
+}
+
+.card {
+  margin: auto !important;
+
+}
+
+.col {
+  margin-bottom: 20px !important;
+}
+
+.navbar {
+
+  margin-top:10px !important;
+}
+
+
+#navbarNav {
+
+  .active {
+  
+    font-weight: 400 !important;
+  }
+
+
+
+ 
+  margin-left: 40px;
+  
+  .nav-link {
+
+    color: $brand-green !important;
+  
+
+  
+  }
+  
+
+
+}
+
+
+
+
+
+
