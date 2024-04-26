@@ -143,21 +143,6 @@ body{
 
 
 
-#col-tols , #col-skills{
-
-    padding:30px !important;
-
-
-
-    .progress-bar {
-
-    background-color:$brand-green;
-  }
-
-
-
-
-}
 
 
 #intro {
@@ -184,16 +169,36 @@ body{
 
 }
  
+.col {
+  form {
 
-#aboutme{
+    padding:50px !important;
+
+  
+  }
+
+}
+
+button.btn.btn-primary {
+
+ background-color:$brand-black;
+ border: 1px solid $brand-black;
+
+ 
+
+}
 
 
-    padding-right: 40px !important;
+button:hover {
 
-    h4 , h5 {
+  background-color: $brand-green;
+  border: 1px solid $brand-green;
+}
 
-        color:$brand-green;
-    }
+
+#contact-img {
+
+  width: 50px;
 }
 
 
@@ -201,6 +206,9 @@ body{
 
   margin-top:10px !important;
 }
+
+
+
 
 
 #navbarNav {
