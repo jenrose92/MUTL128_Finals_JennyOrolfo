@@ -116,11 +116,15 @@ body {
   font-style: normal;
 }
 
-#col-tols, #col-skills {
-  padding: 30px !important;
+div#services-items {
+  padding-left: 30px !important;
 }
-#col-tols .progress-bar, #col-skills .progress-bar {
-  background-color: #929471;
+div#services-items p {
+  color: #929471;
+}
+
+#list-services p {
+  color: #4D4D4D;
 }
 
 #intro {
@@ -135,17 +139,6 @@ body {
 }
 #intro div .container {
   padding: 200px !important;
-}
-
-#aboutme {
-  padding-right: 40px !important;
-}
-#aboutme h4, #aboutme h5 {
-  color: #929471;
-}
-
-.navbar {
-  margin-top: 10px !important;
 }
 
 #navbarNav {

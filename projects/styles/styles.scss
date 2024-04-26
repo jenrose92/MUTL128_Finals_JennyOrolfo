@@ -141,23 +141,22 @@ body{
   }
 
 
+  div#services-items {
+    padding-left: 30px !important;
+
+    p {
+      color: $brand-green;
+    }
+}
 
 
-#col-tols , #col-skills{
-
-    padding:30px !important;
-
-
-
-    .progress-bar {
-
-    background-color:$brand-green;
+#list-services {
+  p  {
+    color: $brand-black;
   }
 
-
-
-
 }
+
 
 
 #intro {
@@ -185,22 +184,9 @@ body{
 }
  
 
-#aboutme{
 
 
-    padding-right: 40px !important;
 
-    h4 , h5 {
-
-        color:$brand-green;
-    }
-}
-
-
-.navbar {
-
-  margin-top:10px !important;
-}
 
 
 #navbarNav {
